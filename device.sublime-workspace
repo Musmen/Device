@@ -1,0 +1,505 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"table\t<table>"
+			],
+			[
+				"f",
+				"figure\t<figure>"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"se",
+				"section\t<section>"
+			],
+			[
+				"ma",
+				"main\t<main>"
+			],
+			[
+				"foot",
+				"footer\tTag"
+			],
+			[
+				"foo",
+				"footer\t<footer>"
+			],
+			[
+				"he",
+				"header\t<header>"
+			],
+			[
+				"evt",
+				"evt"
+			],
+			[
+				"in",
+				"inputFile"
+			],
+			[
+				"re",
+				"renderNewImage"
+			],
+			[
+				"de",
+				"debounce"
+			],
+			[
+				"pin",
+				"pinElements"
+			],
+			[
+				"loa",
+				"loadElements"
+			],
+			[
+				"fi",
+				"filters"
+			],
+			[
+				"fil",
+				"filterPins"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"on",
+				"onSuccess"
+			],
+			[
+				"get",
+				"getAdvertisements"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ge",
+				"getAdvertisements"
+			],
+			[
+				"er",
+				"errorMessage"
+			],
+			[
+				"i",
+				"inputs"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"clo",
+				"closeCard"
+			],
+			[
+				"set",
+				"setValue"
+			],
+			[
+				"o",
+				"offsetLeft"
+			],
+			[
+				"ev",
+				"evtMouseMove"
+			],
+			[
+				"cli",
+				"clientX"
+			],
+			[
+				"scale",
+				"scalePin"
+			],
+			[
+				"mo",
+				"mouseup"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"d",
+				"dialog"
+			],
+			[
+				"setup",
+				"setupOverlay"
+			],
+			[
+				"s",
+				"setupOverlay"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12387,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "catalog.html",
+			"settings":
+			{
+				"buffer_size": 6308,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 185.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/HTML и CSS/GitHub/Device/Device"
+	],
+	"file_history":
+	[
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/shop.html",
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/index.html",
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/item.html",
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный HTML и CSS Уровень 1/02 Разметка/Демо/#2 Разметка каталога «Барбершопа»/Исходник/index.html",
+		"/D/HTML и CSS/GitHub/Barbershop/904469-barbershop/index.html",
+		"/D/JavaScript/Кексобукинг новый/js/filters.js",
+		"/D/JavaScript/Кексобукинг новый/js/add_image.js",
+		"/D/JavaScript/Кексобукинг новый/js/form.js",
+		"/D/JavaScript/Кексобукинг новый/js/pin_main.js",
+		"/D/JavaScript/Кексобукинг новый/js/card.js",
+		"/D/JavaScript/Кексобукинг новый/js/data.js",
+		"/D/JavaScript/Кексобукинг новый/js/map.js",
+		"/D/JavaScript/Кексобукинг новый/js/utils.js",
+		"/D/JavaScript/Кексобукинг новый/js/backend.js",
+		"/D/JavaScript/Кексобукинг новый/css/style.css",
+		"/D/JavaScript/Кексобукинг новый/index.html",
+		"/C/Users/Игорь/Desktop/Взять с собой.txt",
+		"/D/JavaScript/JavaScript Tasks/Proba2.html",
+		"/D/JavaScript/JavaScript Tasks/Proba.html",
+		"/D/JavaScript/Кексобукинг новый/js/filter.js",
+		"/D/JavaScript/Кодымагия/Копия перед заданием 7/js/similar_wizards.js",
+		"/D/JavaScript/JavaScript Tasks/Task_154.html",
+		"/D/JavaScript/Кексобукинг новый+++/js/card.js",
+		"/D/JavaScript/Кексобукинг новый+++/js/utils.js",
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный Javascript, уровень 1/06 Работа с сетью/06 Демо/22 Учебный проект вжух, и данные загружены/Исходный код/game.js",
+		"/D/JavaScript/Кексобукинг новый+++/Исходники/index.html",
+		"/D/JavaScript/Кексобукинг новый+++/Исходники/js/card.js",
+		"/D/JavaScript/Кексобукинг новый+++/Исходники/js/backend.js",
+		"/D/JavaScript/Кексобукинг новый+++/Исходники/js/form.js",
+		"/D/JavaScript/Кексобукинг новый+++/Исходники/js/pin.js",
+		"/D/JavaScript/Кексобукинг новый+++/Исходники/js/get-class.js",
+		"/D/JavaScript/Кексобукинг новый+++/Исходники/js/map.js",
+		"/D/JavaScript/Кексобукинг новый+++/js/page.js",
+		"/D/JavaScript/Кексобукинг новый+++/js/pin.js",
+		"/D/JavaScript/Кексобукинг новый+++/index.html",
+		"/D/JavaScript/Кексобукинг новый+++/css/style.css",
+		"/D/JavaScript/Кексобукинг новый+++/js/map.js",
+		"/D/JavaScript/Кексобукинг новый+++/Перед задачей №5/style.css",
+		"/D/JavaScript/Кекстаграм новый+++/index.html",
+		"/D/JavaScript/Кекстаграм новый+++/css/style.css",
+		"/D/JavaScript/Кекстаграм новый+++/js/picture.js",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/D/JavaScript/Кекстаграм новый+++/KekstagramProject.sublime-project",
+		"/D/JavaScript/Кодымагия/js/setup.js",
+		"/D/JavaScript/Кодымагия/js/game.js",
+		"/D/WWW/Пагинатор/style_paginator.css",
+		"/D/WWW/style_IFA.css",
+		"/D/WWW/fotoalbum.html",
+		"/D/WWW/Пагинатор/paginator.html",
+		"/D/WWW/Papets/papets.html",
+		"/D/WWW/JS_training/script.js",
+		"/D/JavaScript/Кодымагия/js/dialog.js",
+		"/D/JavaScript/Кодымагия/css/main.css",
+		"/D/JavaScript/Кодымагия/index.html",
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный Javascript, уровень 1/05 Модули/05 Демо/18 Учебный проект перетаскивание/Исходный код/script.js",
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный Javascript, уровень 1/05 Модули/05 Демо/18 Учебный проект перетаскивание/Исходный код/dialog.js",
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный Javascript, уровень 1/05 Модули/05 Демо/18 Учебный проект перетаскивание/Исходный код/dnd.js",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/D/JavaScript/Кодымагия/js/stat.js",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/JSHint/Base File.sublime-settings",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Installed Packages/SublimeLinter.sublime-package"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"href",
+			"title",
+			"span",
+			"header",
+			"main-menu",
+			"header",
+			"p",
+			"Моноподы для селфи",
+			"      \n",
+			"main-menu-",
+			"p",
+			"product",
+			"          <li>\n",
+			"2",
+			"name",
+			"checkbox",
+			"item",
+			"figure",
+			"large",
+			"li",
+			"item",
+			"span"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12378,
+								12378
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.18.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "catalog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2084,
+								2084
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 126.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "device.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 138.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
