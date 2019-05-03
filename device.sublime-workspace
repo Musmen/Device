@@ -155,7 +155,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12387,
+				"buffer_size": 13031,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -164,7 +164,7 @@
 			"file": "catalog.html",
 			"settings":
 			{
-				"buffer_size": 6308,
+				"buffer_size": 6464,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -206,7 +206,8 @@
 	},
 	"expanded_folders":
 	[
-		"/D/HTML и CSS/GitHub/Device/Device"
+		"/D/HTML и CSS/GitHub/Device/Device",
+		"/D/HTML и CSS/GitHub/Device/Device/img"
 	],
 	"file_history":
 	[
@@ -330,7 +331,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -339,15 +340,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12387,
+						"buffer_size": 13031,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10800,
-								10800
+								7623,
+								7623
 							]
 						],
 						"settings":
@@ -361,15 +362,18 @@
 							"SL.21.region_keys":
 							[
 							],
+							"SL.40.region_keys":
+							[
+							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4984.0,
+						"translation.y": 4770.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -378,15 +382,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6308,
+						"buffer_size": 6464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2084,
-								2084
+								4106,
+								4106
 							]
 						],
 						"settings":
@@ -397,15 +401,18 @@
 							"SL.15.region_keys":
 							[
 							],
+							"SL.41.region_keys":
+							[
+							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
+						"translation.y": 2070.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -499,8 +506,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 138.0,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
