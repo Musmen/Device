@@ -155,7 +155,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13031,
+				"buffer_size": 16158,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -278,7 +278,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -292,6 +292,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"name",
+			"span",
+			"header",
+			"Сайт",
+			"class=\"button menu-item-button\"",
 			"href",
 			"title",
 			"span",
@@ -340,15 +345,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13031,
+						"buffer_size": 16158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7623,
-								7623
+								15562,
+								15562
 							]
 						],
 						"settings":
@@ -362,6 +367,9 @@
 							"SL.21.region_keys":
 							[
 							],
+							"SL.24.region_keys":
+							[
+							],
 							"SL.40.region_keys":
 							[
 							],
@@ -370,7 +378,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4770.0,
+						"translation.y": 7414.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -420,7 +428,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -469,7 +477,7 @@
 	"project": "device.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -506,7 +514,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
