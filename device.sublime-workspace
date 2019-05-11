@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"data",
+				"datalist\t<datalist>"
+			],
+			[
 				"t",
 				"table\t<table>"
 			],
@@ -155,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16158,
+				"buffer_size": 15910,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -164,7 +168,7 @@
 			"file": "catalog.html",
 			"settings":
 			{
-				"buffer_size": 6464,
+				"buffer_size": 11200,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -278,7 +282,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -292,6 +296,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Непотопляемая селфи-палка",
+			"Профессиональная",
+			"Любительская",
+			"a",
+			"value=\"\"",
+			"button",
+			"type=\"button\"",
+			"button",
+			"black",
+			"color",
+			"black",
 			"name",
 			"span",
 			"header",
@@ -336,7 +351,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -345,15 +360,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16158,
+						"buffer_size": 15910,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15562,
-								15562
+								3339,
+								3339
 							]
 						],
 						"settings":
@@ -370,6 +385,9 @@
 							"SL.24.region_keys":
 							[
 							],
+							"SL.31.region_keys":
+							[
+							],
 							"SL.40.region_keys":
 							[
 							],
@@ -378,10 +396,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7414.0,
+						"translation.y": 1380.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -390,15 +408,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6464,
+						"buffer_size": 11200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4106,
-								4106
+								11180,
+								11180
 							]
 						],
 						"settings":
@@ -409,6 +427,9 @@
 							"SL.15.region_keys":
 							[
 							],
+							"SL.32.region_keys":
+							[
+							],
 							"SL.41.region_keys":
 							[
 							],
@@ -417,10 +438,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2070.0,
+						"translation.y": 2940.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
