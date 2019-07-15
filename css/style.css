@@ -1,0 +1,27 @@
+@font-face {
+  font-family: gilroyextrabold;
+  src: url(/fonts/web/gilroyextrabold.woff2);
+}
+
+@font-face {
+  font-family: gilroylight;
+  src: url(/fonts/web/gilroylight.woff2);
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(/fonts/web/opensans.woff2);
+}
+
+@font-face {
+  font-family: opensanslight;
+  src: url(/fonts/web/opensanslight.woff2);
+}
+
+body {
+  font-family: gilroyextrabold, "Arial Black", sans-serif;
+}
+
+ul {
+  font-family: opensanslight, Candara, sans-serif;
+}

@@ -159,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15910,
+				"buffer_size": 16014,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -170,6 +170,23 @@
 			{
 				"buffer_size": 11200,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 477,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "img/compare.svg",
+			"settings":
+			{
+				"buffer_size": 591,
 				"line_ending": "Windows"
 			}
 		}
@@ -211,12 +228,12 @@
 	"expanded_folders":
 	[
 		"/D/HTML и CSS/GitHub/Device/Device",
-		"/D/HTML и CSS/GitHub/Device/Device/img"
+		"/D/HTML и CSS/GitHub/Device/Device/fonts"
 	],
 	"file_history":
 	[
-		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/shop.html",
 		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/index.html",
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/shop.html",
 		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/item.html",
 		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный HTML и CSS Уровень 1/02 Разметка/Демо/#2 Разметка каталога «Барбершопа»/Исходник/index.html",
 		"/D/HTML и CSS/GitHub/Barbershop/904469-barbershop/index.html",
@@ -282,7 +299,7 @@
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -360,15 +377,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15910,
+						"buffer_size": 16014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3339,
-								3339
+								351,
+								351
 							]
 						],
 						"settings":
@@ -388,6 +405,9 @@
 							"SL.31.region_keys":
 							[
 							],
+							"SL.34.region_keys":
+							[
+							],
 							"SL.40.region_keys":
 							[
 							],
@@ -396,7 +416,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1700.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -430,6 +450,9 @@
 							"SL.32.region_keys":
 							[
 							],
+							"SL.35.region_keys":
+							[
+							],
 							"SL.41.region_keys":
 							[
 							],
@@ -438,10 +461,77 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2940.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"SL.36.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|8a45f36c277b003b3f402038a0d286a12cdaf3dcea8d93720870e4acedd6721a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|de7fa36bdc06bc9f2ce0a6f3ab229153897bc2cf74acc7430ae79eef6059b54d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|29b3355cb565fc7a4200121fe058d8e436dc9243abc194fb843b076774813c0f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|24829add864a37818438a35f4dcda76aa33e253c9fd926470626de6098a8b089|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "img/compare.svg",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -535,7 +625,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
