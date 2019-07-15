@@ -1,27 +1,42 @@
 @font-face {
   font-family: gilroyextrabold;
-  src: url(/fonts/web/gilroyextrabold.woff2);
+  src: url(../fonts/web/gilroyextrabold.woff2);
 }
 
 @font-face {
   font-family: gilroylight;
-  src: url(/fonts/web/gilroylight.woff2);
+  src: url(../fonts/web/gilroylight.woff2);
 }
 
 @font-face {
   font-family: opensans;
-  src: url(/fonts/web/opensans.woff2);
+  src: url(../fonts/web/opensans.woff2);
 }
 
 @font-face {
   font-family: opensanslight;
-  src: url(/fonts/web/opensanslight.woff2);
+  src: url(../fonts/web/opensanslight.woff2);
 }
 
 body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 24px;
   font-family: gilroyextrabold, "Arial Black", sans-serif;
+  color: black;
+
+  background-color: white;
 }
 
-ul {
+/*{
   font-family: opensanslight, Candara, sans-serif;
+}*/
+
+.main-header-logo b{
+  font-size: 48px;
+  line-height: 48px;
+
+  text-transform: uppercase;
 }
