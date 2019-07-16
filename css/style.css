@@ -43,7 +43,8 @@ a {
 .search-form .search-field,
 .search-form .button,
 .main-header-user-menu,
-.main-header-links {
+.main-header-links,
+.catalog-menu {
   font-size: 15px;
   line-height: 30px;
   font-family: opensanslight, Candara, sans-serif;
@@ -109,7 +110,9 @@ a {
 }
 
 .main-header-user-menu,
-.main-header-links {
+.main-header-links,
+.main-header-menu-list,
+.catalog-menu {
   list-style: none;
 }
 
@@ -140,13 +143,46 @@ a {
 .main-header-links .compare-link:hover,
 .main-header-links .compare-link:focus,
 .main-header-links .cart-link:hover,
-.main-header-links .cart-link:focus {
-  opacity: 0.6;
+.main-header-links .cart-link:focus,
+.main-header-menu-item a:hover,
+.main-header-menu-item a:focus {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .main-header-user-menu .user-name-link:active,
 .main-header-user-menu .login-link:active, 
 .main-header-links .compare-link:active, 
-.main-header-links .cart-link:active {
-  opacity: 0.3;
+.main-header-links .cart-link:active,
+.main-header-menu-item a:active {
+  color: rgba(0, 0, 0, 0.3);
 }
+
+.main-header-menu-item:hover > ul.catalog-menu,
+.main-header-menu-item:focus > ul.catalog-menu,
+.main-header-menu-item:active > ul.catalog-menu {
+  color: rgba(0, 0, 0, 1);
+}
+
+.catalog-menu li:hover,
+.catalog-menu li:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.catalog-menu li:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-header-menu-list li {
+  text-transform: uppercase;
+}
+
+.catalog-menu li {
+  font-size: 15px;
+  line-height: 36px;
+  text-transform: none;
+  /*opacity: 1;*/
+}
+
+/*.catalog-menu li.catalog-menu-item {
+  opacity: 1;
+}*/
