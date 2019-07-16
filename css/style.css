@@ -36,9 +36,14 @@ a {
   text-decoration: none;
 }
 
+.main-header {
+  background-color: #f7e296;  
+}
+
 .search-form .search-field,
 .search-form .button,
-.main-header-user-menu {
+.main-header-user-menu,
+.main-header-links {
   font-size: 15px;
   line-height: 30px;
   font-family: opensanslight, Candara, sans-serif;
@@ -61,6 +66,7 @@ a {
 }
 
 .search-form .search-field {
+  background-color: transparent;
   border: none;
   opacity: 0.3;
 }
@@ -102,6 +108,45 @@ a {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.main-header-user-menu {
+.main-header-user-menu,
+.main-header-links {
   list-style: none;
+}
+
+.main-header-user-menu .logout-link {
+  opacity: 0.3;
+}
+
+.main-header-user-menu .logout-link:hover,
+.main-header-user-menu .logout-link:focus {
+  opacity: 0.6;
+}
+
+.main-header-user-menu .logout-link:active {
+  opacity: 1;
+}
+
+/*.main-header-user-menu .user-name-link, 
+.main-header-user-menu .login-link,
+.main-header-links .compare-link,
+.main-header-links .cart-link {
+  opacity: 1;
+}*/
+
+.main-header-user-menu .user-name-link:hover,
+.main-header-user-menu .user-name-link:focus,
+.main-header-user-menu .login-link:hover,
+.main-header-user-menu .login-link:focus,
+.main-header-links .compare-link:hover,
+.main-header-links .compare-link:focus,
+.main-header-links .cart-link:hover,
+.main-header-links .cart-link:focus {
+  opacity: 0.6;
+}
+
+.main-header-user-menu .user-name-link:active,
+.main-header-user-menu .login-link:active, 
+.main-header-links .compare-link:active, 
+.main-header-links .cart-link:active {
+  opacity: 0.3;
 }

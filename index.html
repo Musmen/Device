@@ -22,23 +22,23 @@
       </form>
       
       <ul class="main-header-user-menu">
-        <li class="user-menu-item main-header-link user-name visually-hidden">
-          <a href="profile.html">Валентин Петухов</a>
+        <li class="user-menu-item visually-hidden">
+          <a class="user-name-link" href="profile.html">Валентин Петухов</a>
         </li>
-        <li class="user-menu-item main-header-link login-link">
-          <a href="login.html">Войти</a>
+        <li class="user-menu-item">
+          <a class="login-link" href="login.html">Войти</a>
         </li>
-        <li class="user-menu-item main-header-link logout-link visually-hidden disabled">
-          <a href="logout.html">Выйти</a>
+        <li class="user-menu-item visually-hidden disabled">
+          <a class="logout-link" href="logout.html">Выйти</a>
         </li>
       </ul>
 
       <ul class="main-header-links">
-        <li class="main-header-link compare-link">
-          <a href="compare.html" title="Сравнить">Сравнить</a>
+        <li class="main-header-link">
+          <a class="compare-link" href="compare.html" title="Сравнить">Сравнить</a>
         </li>
-        <li class="main-header-link cart-link">
-          <a href="cart.html" title="Корзина">Корзина</a>
+        <li class="main-header-link">
+          <a class="cart-link" href="cart.html" title="Корзина">Корзина</a>
         </li>
       </ul>
 
@@ -77,19 +77,8 @@
             <a href="#" title="Контакты">Контакты</a>
           </li>
         </ul>
-         
-          <ul class="slider-menu">
-            <li class="slider-menu-item">
-              <button class="button button-slider" type="button">Первый слайд</button>
-            </li>
-            <li class="slider-menu-item">
-              <button class="button button-slider" type="button">Второй слайд</button>
-            </li>
-            <li class="slider-menu-item">
-              <button class="button button-slider" type="button">Третий слайд</button>
-            </li>
-          </ul>
       </nav>
+      
     </header>
 
     <main class="container">
@@ -98,7 +87,21 @@
       <section class="product-slider">
         <h2 class="visually-hidden">Хиты продаж интернет-магазина "Device"</h2>
         
+        <ul class="slider-menu">
+          <li class="slider-menu-item">
+            <button class="button button-slider" type="button">Первый слайд</button>
+          </li>
+          <li class="slider-menu-item">
+            <button class="button button-slider" type="button">Второй слайд</button>
+          </li>
+          <li class="slider-menu-item">
+            <button class="button button-slider" type="button">Третий слайд</button>
+          </li>
+        </ul>
+
+
         <div class="promo-container promo-container-first">
+          <span class="promo-number">01</span>
           <h3 class="visually-hidden">Селфи-палка на интернет-магазине "Device"</h3>
           <img src="img/slider-pic-1.png" width="384" height="486" alt="Хит продаж №1">
           <p class="promo-title"><b>Делай селфи, как Бен Стиллер!</b></p>
@@ -126,6 +129,7 @@
         </div>
 
         <div class="promo-container promo-container-second visually-hidden">
+          <span class="promo-number">02</span>
           <h3 class="visually-hidden">Мотивирующий фитнес-браслет на интернет-магазине "Device"</h3>
           <img src="img/slider-pic-2.png" width="345" height="485" alt="Хит продаж №2">
           <p class="promo-title"><b>Худеем правильно!</b></p>
@@ -149,6 +153,7 @@
         </div>
 
         <div class="promo-container promo-container-third visually-hidden">
+          <span class="promo-number">03</span>
           <h3 class="visually-hidden">Квадрокоптер на интернет-магазине "Device"</h3>
           <img src="img/slider-pic-3.png" width="526" height="334" alt="Хит продаж №3">
           <p class="promo-title"><b>Порхает как бабочка, жалит как пчела!</b></p>
