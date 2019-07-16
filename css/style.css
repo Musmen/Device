@@ -1,21 +1,21 @@
 @font-face {
-  font-family: gilroyextrabold;
-  src: url(../fonts/web/gilroyextrabold.woff2);
+  font-family: "gilroyextrabold";
+  src: url("../fonts/web/gilroyextrabold.woff2");
 }
 
 @font-face {
-  font-family: gilroylight;
-  src: url(../fonts/web/gilroylight.woff2);
+  font-family: "gilroylight";
+  src: url("../fonts/web/gilroylight.woff2");
 }
 
 @font-face {
-  font-family: opensans;
-  src: url(../fonts/web/opensans.woff2);
+  font-family: "opensans";
+  src: url("../fonts/web/opensans.woff2");
 }
 
 @font-face {
-  font-family: opensanslight;
-  src: url(../fonts/web/opensanslight.woff2);
+  font-family: "opensanslight";
+  src: url("../fonts/web/opensanslight.woff2");
 }
 
 body {
@@ -24,19 +24,84 @@ body {
 
   font-size: 18px;
   line-height: 24px;
-  font-family: gilroyextrabold, "Arial Black", sans-serif;
+  font-family: "gilroyextrabold", "Arial Black", sans-serif;
   color: black;
 
   background-color: white;
 }
 
-/*{
-  font-family: opensanslight, Candara, sans-serif;
-}*/
+a {
+  color: inherit;  
 
-.main-header-logo b{
+  text-decoration: none;
+}
+
+.search-form .search-field,
+.search-form .button,
+.main-header-user-menu {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: opensanslight, Candara, sans-serif;
+}
+
+.main-header-logo{
   font-size: 48px;
   line-height: 48px;
 
   text-transform: uppercase;
+}
+
+.main-header-logo:hover,
+.main-header-logo:focus {
+  opacity: 0.6;
+}
+
+.main-header-logo:active {
+  opacity: 0.3;
+}
+
+.search-form .search-field {
+  border: none;
+  opacity: 0.3;
+}
+
+.search-form .search-field:hover {
+  opacity: 0.6;
+}
+
+.search-form .search-field:focus {
+  opacity: 1;
+}
+
+/*.search-form .search-field::before { Иконка лупы
+  width: 16px;
+  height: 16px;
+
+  color: black;
+
+  background-image: url('../img/search.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}*/
+
+.search-form .button {
+  background-color: transparent;
+  border-size: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.search-form .button:hover,
+.search-form .button:focus {
+  color: white;
+
+  background-color: black;
+}
+
+.search-form .button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header-user-menu {
+  list-style: none;
 }

@@ -11,25 +11,25 @@
   <body>
 
     <header class="main-header">
-      <a class="main-header-logo">
+      <a class="main-header-logo" href="#">
         <b>Device</b>
       </a>
       
       <form class="search-form" method="get" action="http://echo.htmlacademy.ru">
         <label class="visually-hidden" for="main-header-search-field">Поиск по сайту</label>
         <input class="search-field" type="search" id="main-header-search-field" value="" name="main-header-search" placeholder="Поиск по сайту">
-        <button class="button search-form-button visually-hidden" type="submit">Поиск</button>
+        <button class="button search-form-button visually-hidden" type="submit" aria-label="Поиск">Найти</button>
       </form>
       
       <ul class="main-header-user-menu">
+        <li class="user-menu-item main-header-link user-name visually-hidden">
+          <a href="profile.html">Валентин Петухов</a>
+        </li>
         <li class="user-menu-item main-header-link login-link">
           <a href="login.html">Войти</a>
         </li>
-        <li class="user-menu-item main-header-link logout-link visually-hidden">
+        <li class="user-menu-item main-header-link logout-link visually-hidden disabled">
           <a href="logout.html">Выйти</a>
-        </li>
-        <li class="user-menu-item main-header-link user-name visually-hidden">
-          <a href="profile.html">Валентин Петухов</a>
         </li>
       </ul>
 
