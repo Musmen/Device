@@ -26,6 +26,7 @@ body {
   line-height: 24px;
   font-family: "gilroyextrabold", "Arial Black", sans-serif;
   color: black;
+  letter-spacing: 0.01em;
 
   background-color: white;
 }
@@ -34,6 +35,10 @@ a {
   color: inherit;  
 
   text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .main-header {
@@ -49,13 +54,18 @@ a {
 .product-characters thead,
 .services-discriptions-item p,
 .about p,
-.contacts p {
+.contacts p,
+.main-footer-user-menu,
+.main-footer-links,
+.footer-adress,
+.footer-phone {
   font-size: 15px;
   line-height: 30px;
   font-family: opensanslight, Candara, sans-serif;
 }
 
-.main-header-logo{
+.main-header-logo,
+.main-footer-logo {
   font-size: 48px;
   line-height: 48px;
 
@@ -63,11 +73,14 @@ a {
 }
 
 .main-header-logo:hover,
-.main-header-logo:focus {
+.main-header-logo:focus,
+.main-footer-logo:hover,
+.main-footer-logo:focus {
   opacity: 0.6;
 }
 
-.main-header-logo:active {
+.main-header-logo:active,
+.main-footer-logo:active {
   opacity: 0.3;
 }
 
@@ -114,89 +127,72 @@ a {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.main-header-user-menu,
-.main-header-links,
-.main-header-menu-list,
-.catalog-menu {
-  list-style: none;
-}
-
-.main-header-user-menu .logout-link {
+.logout-link {
   opacity: 0.3;
 }
 
-.main-header-user-menu .logout-link:hover,
-.main-header-user-menu .logout-link:focus {
+.logout-link:hover,
+.logout-link:focus {
   opacity: 0.6;
 }
 
-.main-header-user-menu .logout-link:active {
+.logout-link:active {
   opacity: 1;
 }
 
-/*.main-header-user-menu .user-name-link, 
-.main-header-user-menu .login-link,
-.main-header-links .compare-link,
-.main-header-links .cart-link {
-  opacity: 1;
-}*/
+.main-menu-link {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
 
-.main-header-user-menu .user-name-link:hover,
-.main-header-user-menu .user-name-link:focus,
-.main-header-user-menu .login-link:hover,
-.main-header-user-menu .login-link:focus,
-.main-header-links .compare-link:hover,
-.main-header-links .compare-link:focus,
-.main-header-links .cart-link:hover,
-.main-header-links .cart-link:focus,
-.main-header-menu-item a:hover,
-.main-header-menu-item a:focus {
+.user-name-link:hover,
+.user-name-link:focus,
+.login-link:hover,
+.login-link:focus,
+.compare-link:hover,
+.compare-link:focus,
+.cart-link:hover,
+.cart-link:focus {
+  opacity: 0.6;
+}
+
+.main-menu-link:hover, /*Если задавать opacity - влияет и на вложенный список*/
+.main-menu-link:focus {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.main-header-user-menu .user-name-link:active,
-.main-header-user-menu .login-link:active, 
-.main-header-links .compare-link:active, 
-.main-header-links .cart-link:active,
-.main-header-menu-item a:active {
+.user-name-link:active,
+.login-link:active, 
+.compare-link:active, 
+.cart-link:active {
+  opacity: 0.3;
+}
+
+.main-menu-link:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.main-header-menu-item:hover ul.catalog-menu, /* Возвращаем вложенное меню в невыделенное состояние,*/
-.main-header-menu-item:focus ul.catalog-menu, /* если выделен открывающий его элемент списка сверху*/
-.main-header-menu-item:active ul.catalog-menu {
+.main-menu-link:hover ul.catalog-menu, /* Возвращаем вложенное меню в невыделенное состояние,*/
+.main-menu-link:focus ul.catalog-menu, /* если выделен открывающий его элемент списка сверху*/
+.main-menu-link:active ul.catalog-menu {
   color: rgba(0, 0, 0, 1);
 }
 
-.catalog-menu li:hover, /*Отдельно прописываем выделенные состояния для вложенного меню*/
-.catalog-menu li:focus {
+.catalog-menu-link {
+  font-size: 15px;
+  line-height: 36px;
+}
+
+.catalog-menu-link:hover, /*Отдельно прописываем выделенные состояния для вложенного меню*/
+.catalog-menu-link:focus {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.catalog-menu li:active {
+.catalog-menu-link:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.main-header-menu-list li {
-  text-transform: uppercase;
-}
-
-.catalog-menu li {
-  font-size: 15px;
-  line-height: 36px;
-  text-transform: none;
-}
-
 /* -----------------------------------Main---------------------------------------- */
-
-.slider-menu,
-.popular-products-list,
-.services-list,
-.services-discriptions,
-.partners-list,
-.transport-list { /* Может сделать отдельный класс для лист и обнулить их все одним разом?*/
-  list-style: none;
-}
 
 /*.slider-menu .button-slider {
  ---------------Доработать!--------------------
@@ -221,6 +217,7 @@ a {
 
 .promo-container .promo-container-button {
   text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .promo-container .promo-container-button:hover,
@@ -264,10 +261,11 @@ a {
   background-color: #e5e5e5;
 }
 
-.services-list .services-item,
+.services .services-item,
 .about .about-button,
 .contacts .contacts-button {
   text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .services-item a:hover,
@@ -295,6 +293,11 @@ a {
   color: #464646;
 }
 
+.about p,
+.contacts p {
+  letter-spacing: 0;}
+
+
 .partners-list .partners-item {
   opacity: 0.2;
 }
@@ -314,3 +317,116 @@ a {
 .contacts .contacts-button:active {
   color: rgba(0, 0, 0, 0.3);
 }
+
+/* -----------------------------------Footer---------------------------------------- */
+
+.main-footer {
+  color: white;
+
+  background-color: #464646;
+}
+
+.main-footer-logo {
+  color: #ffc600;
+}
+
+.main-footer-menu .main-menu-link:hover, /*Если задавать opacity - влияет и на вложенный список*/
+.main-footer-menu .main-menu-link:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+.main-footer-menu .main-menu-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.main-footer-user-menu .user-name-link,
+.main-footer-user-menu .login-link,
+.main-footer-links .compare-link,
+.main-footer-links .cart-link {
+  opacity: 0.7;
+}
+
+.main-footer-user-menu .user-name-link:hover,
+.main-footer-user-menu .user-name-link:focus,
+.main-footer-user-menu .login-link:hover,
+.main-footer-user-menu .login-link:focus,
+.main-footer-links .compare-link:hover,
+.main-footer-links .compare-link:focus,
+.main-footer-links .cart-link:hover,
+.main-footer-links .cart-link:focus {
+  opacity: 1;
+}
+
+.main-footer-user-menu .user-name-link:active,
+.main-footer-user-menu .login-link:active, 
+.main-footer-links .compare-link:active, 
+.main-footer-links .cart-link:active {
+  opacity: 0.3;
+}
+
+.footer-social-item a {
+  display: block;
+
+  width: 32px;
+  height: 32px;
+
+  opacity: 0.3;
+}
+
+.footer-social-list .facebook {
+  background-image: url('../img/facebook.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer-social-list .instagram {
+  background-image: url('../img/instagram.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer-social-list .twitter {
+  background-image: url('../img/twitter.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer-social-item a:hover,
+.footer-social-item a:focus {
+  opacity: 0.6;
+}
+
+.footer-social-item a:active{
+  opacity: 0.1;
+}
+
+.footer-phone {
+  text-align: right;
+}
+
+.footer-copyright a {
+  display: block;
+  width: 27px;
+  height: 35px;
+
+  color: rgba(255, 198, 0, 1);
+
+  background-image: url("../img/logo-html.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+  opacity: 0.6;
+}
+
+.footer-copyright a:active {
+  opacity: 0.3;
+}
+
+.footer-phone,
+.footer-adress {
+  letter-spacing: 0;
+}
+
+/* -----------------------------------Popups---------------------------------------- */
