@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"tex",
+				"text-transform\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"p",
+				"padding-top\tproperty"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background-repeat\tproperty"
+			],
+			[
+				"bap",
+				"background-position\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"borde-c",
+				"border-color\tproperty"
+			],
+			[
+				"v",
+				"visibility\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"tr",
+				"transparent\tbackground-color"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
 				"data",
 				"datalist\t<datalist>"
 			],
@@ -22,10 +114,6 @@
 			[
 				"se",
 				"section\t<section>"
-			],
-			[
-				"ma",
-				"main\t<main>"
 			],
 			[
 				"foot",
@@ -159,7 +247,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16014,
+				"buffer_size": 17313,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -177,16 +265,8 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 477,
+				"buffer_size": 9531,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "img/compare.svg",
-			"settings":
-			{
-				"buffer_size": 591,
 				"line_ending": "Windows"
 			}
 		}
@@ -232,9 +312,10 @@
 	],
 	"file_history":
 	[
-		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/index.html",
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/css/style.css",
 		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/shop.html",
 		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/item.html",
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/index.html",
 		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный HTML и CSS Уровень 1/02 Разметка/Демо/#2 Разметка каталога «Барбершопа»/Исходник/index.html",
 		"/D/HTML и CSS/GitHub/Barbershop/904469-barbershop/index.html",
 		"/D/JavaScript/Кексобукинг новый/js/filters.js",
@@ -313,6 +394,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"services",
+			"services-b",
+			"  ",
+			"box",
+			"modal",
+			"shadow",
+			".footer-social-list ",
+			"facebook",
+			"main-footer-user-menu",
+			"0",
+			"list-style",
+			"services",
+			"popular-products",
+			"main-header-menu",
+			".main-header-menu-item",
+			".main-header-user-menu ",
+			"borde",
 			"Непотопляемая селфи-палка",
 			"Профессиональная",
 			"Любительская",
@@ -368,7 +466,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -377,15 +475,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16014,
+						"buffer_size": 17313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								16638,
+								16638
 							]
 						],
 						"settings":
@@ -416,10 +514,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7430.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -435,8 +533,8 @@
 						"selection":
 						[
 							[
-								11180,
-								11180
+								353,
+								353
 							]
 						],
 						"settings":
@@ -464,7 +562,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -473,65 +571,72 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 477,
+						"buffer_size": 9531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								349,
-								349
+								8920,
+								8920
 							]
 						],
 						"settings":
 						{
 							"SL.36.region_keys":
 							[
+								"SL.csslint.Highlights.|d05966b8a1c12225a5e609c09bb354fd27c6e85d3308d0c1c879ae5fd12e9f02|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1b28e19827f466ff4199efb2a96a07faf4f9c58c1bbcc6161b76ca61e0d8d3b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f640f17e1fd559d055d34a8247540f8ae8eb8b2007011a7bd4b40a0290d0f997|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|186ec31a8910832e609d26a9cd1d0cd23f7b116fd6b762c749727c7be53046c7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b27b446e50c6e0357941d5484fde5eab157d565bb1d5732bdad6bddf792696bb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6cab6aa3776d6c127c52592804eb13051dac3d5630a66866b0aa1880385617da|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b5910041657a1abfc10a33fd339dafdac7b792b0daf8f8d445d351ef4c4c3718|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f7cc0b247eda8befaa05168837ef1b7f36803247154153d59217c5b589740387|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|07f392021900571b9f87ef1aafe36facd7e6a06e480f5ccfa13e2cfb829b8305|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d2f3b680cf5e22f4070c50edae1a47ea0b4dc8aad2fe522b6bda4e61a753f91a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a882b5d585bbd1a8d55013f085effd0cacfbd313bfdccedb5ee69273bb64c829|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|54afc3a53946b2b9a5d1cf8aea212b738a6fb65036a25a4230a7a301d8c78a3b|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.csslint.Highlights.|8a45f36c277b003b3f402038a0d286a12cdaf3dcea8d93720870e4acedd6721a|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|de7fa36bdc06bc9f2ce0a6f3ab229153897bc2cf74acc7430ae79eef6059b54d|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|29b3355cb565fc7a4200121fe058d8e436dc9243abc194fb843b076774813c0f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cbbc899c0ca5c98fa8b72be06671449f556f6641793810b1f9b316920494a05a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|90db115b136bc5334aeb92c21f9459fe877e4793b700f3b547145b6533db21a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b3f631fb23ffc8fc78a7b042744ef7df71c11711b6a8b6eb9fd98b680b6d9f59|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|343b5cadb7e78ca9fd159be8ad92c63d4be5db02deb669eb496f3167ab3e044f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3182e06a5372529ff100b16ace9c84eda1badaf8c82bcd0cf404817745591480|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2839e27ff78ec393ebbd3067d1ce22163a81df9796f04a2f65d7b9824b312f33|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|699b3bab7875683218e9931533dfa92c82c5510e832a2d1ba83b869bde52d555|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|71cd7c124d2eebaef4192cedad5f34e879618ef9cf1b74172883bbd06252c4d8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fd918ec534c57618f588bcb1abdf2eedad98146cac49cb8f2c51cc977b293a81|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3c09c646678058a8be4a3a0468db701b3c35b5e9630d86d8e2045e7872045071|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a9f98a313e0f5f72ad3e2203f18bdade89bc6ae96f6ec1259d367d408d0641fa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|16c2a58f410395d4aab5fc15e2462468684b863265ff2e7890916f7954b8e1cb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b8f88cb78d12b6885d301457043282b9bc52246042bc90942106723a5de01a4b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8a72a5f622cc1c73e8acf7969cc816061c7848c78451d9b815e06a63ac8b800e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e411ef9f2471e9a16a160714ebca4a0b50fc3dfeed571c9152f116c7fe5e1d95|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|af2e158b94eb4c39d3cac07028ed3f86d3e8090824235f063d93c75632711163|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d8a3c2c35dceed432049ae0944c3fcfb005515169b8d83c04afbfc6a1323478d|region.yellowish markup.warning.sublime_linter|32",
 								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.csslint.Highlights.|24829add864a37818438a35f4dcda76aa33e253c9fd926470626de6098a8b089|region.yellowish markup.warning.sublime_linter|32"
+								"SL.csslint.Highlights.|3b3ee87e93d24df9b78ca0c5e8853ed509a654a2cf9fa226ec8d401d5792873f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|283c62e0dbaeca3a0030448303096795b27242aca1b5b98ebd8f55457d3479e1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d47849b86c04d409c277b37261a3bb8dcf78a6c716fb77aeae068c60eef396eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0acf884a0e3edef2c067998404f3a3455ac5a10f3840aa478361fa8f0cb2fd9e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|da1311d17cb6ebcd4841ed4122022baa6128ecae03b85d3ffe0016b8249ce177|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2c3da230a567898a7df19b91c2581eff242de8e58d550847f4cbe0bee8622abf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fef288da8bad93921b9fa4d51d8209050d4efb84683f98217fd6bc21e9ffaf0d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2b34156dbec9ace598b3b87c8ec28282fd36fbb0729c0685550431daa066fbeb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f8e0bffb47ec4cad8db208361edc146d4300001daa5ca9f3d8a070975f5aca31|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d4fd11ad6ff88f8b4f4b0a1962ab968d1e1be10f9540f707bf4841f99011d212|region.yellowish markup.warning.sublime_linter|32"
 							],
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8921.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "img/compare.svg",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -625,7 +730,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -61,7 +61,7 @@ a {
 .footer-phone {
   font-size: 15px;
   line-height: 30px;
-  font-family: opensanslight, Candara, sans-serif;
+  font-family: "opensanslight", "Candara", sans-serif;
 }
 
 .main-header-logo,
@@ -97,17 +97,6 @@ a {
 .search-form .search-field:focus {
   opacity: 1;
 }
-
-/*.search-form .search-field::before { Иконка лупы
-  width: 16px;
-  height: 16px;
-
-  color: black;
-
-  background-image: url('../img/search.svg');
-  background-position: center center;
-  background-repeat: no-repeat;
-}*/
 
 .search-form .button {
   background-color: transparent;
@@ -215,11 +204,6 @@ a {
   line-height: 56px;
 }
 
-/*.promo-container .promo-container-button {
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}*/
-
 .active-button {
   font: inherit;
   text-transform: uppercase;
@@ -230,14 +214,11 @@ a {
   border: none;
 }
 
-/*.promo-container .promo-container-button:hover,
-.promo-container .promo-container-button:focus*/  
 .active-button:hover,
 .active-button:focus {
   background-color: #f0c52e;
 }
 
-/*.promo-container .promo-container-button:active {*/
 .active-button:active {
   color: rgba(0, 0, 0, 0.3);
 }
@@ -274,19 +255,6 @@ a {
   background-color: #e5e5e5;
 }
 
-/*.services .services-item {*/
-/*.about .about-button,
-.contacts .contacts-button {*/
-/*  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}*/
-
-/*.services-item a:hover,
-.services-item a:focus  {
-  color: black;
-  background-color: #f0c52e;
-}*/
-
 .services-item .current,
 .services-item a:active {
   color: #f7e184;
@@ -318,18 +286,6 @@ a {
 .partners-list .partners-item:hover {
   opacity: 1;         /* На JS нужно заменить логотипы на цветные при наведении*/
 }
-
-/*.about .about-button:hover, /* Эти кнопки идентичны промо-кнопке. Может сделать отдельный класс для такой кнопки?*/
-/*.about .about-button:focus,
-.contacts .contacts-button:hover, 
-.contacts .contacts-button:focus {
-  background-color: #f0c52e;
-}
-
-.about .about-button:active,
-.contacts .contacts-button:active {
-  color: rgba(0, 0, 0, 0.3);
-}*/
 
 /* -----------------------------------Footer---------------------------------------- */
 
@@ -449,18 +405,48 @@ a {
   box-shadow: 0px 10px 20px rgba(4, 6, 6, 0.2);
 }
 
-.feedback-form label {
+.feedback-form {
   letter-spacing: normal;
 }
 
-.active-button {
+.feedback-form textarea {
   font: inherit;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: black;
+}
+
+.feedback-form .input-field {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "opensans", "Calibri", sans-serif;
+  color: rgba(70, 70, 70, 0.4);
+
+  background-color: rgba(242, 242, 242, 0.5);
+  border: none;
+}
+
+.placeholder {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "opensans", "Calibri", sans-serif;
+  color: rgba(70, 70, 70, 0.4);
+}
+
+.feedback-form .input-field:hover {
+  background-color: rgba(234, 234, 234, 0.8);
+}
+
+.feedback-form .input-field:focus {
+  color: rgba(70, 70, 70, 1);
 
   background-color: transparent;
-  border: none;
+  outline: 3px solid rgba(247, 226, 150, 0.5);
+}
+
+.feedback-form .input-field:focus + .placeholder { /* На JS отключить placeholder при вводе хотябы одного символа*/
+  display: none;
+}
+
+.feedback-form .input-field:invalid {
+  background-color: rgba(246, 218, 218, 0.5);
 }
 
 .popup-close-button {
