@@ -58,7 +58,8 @@ a {
 .main-footer-user-menu,
 .main-footer-links,
 .footer-adress,
-.footer-phone {
+.footer-phone,
+.popup .popup-compare-link {
   font-size: 15px;
   line-height: 30px;
   font-family: "opensanslight", "Candara", sans-serif;
@@ -579,4 +580,68 @@ filter-form {
 
 .sort-direction-list a:active{
   color: rgba(0, 0, 0, 1);
+}
+
+/* -----------------------------------Catalog-section---------------------------------------- */
+
+.catalog .price {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "gilroylight", Arial, sans-serif;
+  color: #464646;
+}
+
+.pagination-list a {
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.3);
+
+  background-color: rgba(129, 129, 129, 0.08);
+
+  text-transform: uppercase;
+}
+
+.pagination-list a:hover,
+.pagination-list a:focus {
+  color: rgba(129, 129, 129, 0.16);
+}
+
+.pagination-list a:active,
+.pagination-item.current a {
+  color: rgba(0, 0, 0, 1);
+}
+
+.pagination-item:first-child a,
+.pagination-item:last-child a {
+  color: rgba(0, 0, 0, 1);
+}
+
+.pagination-item:first-child a:hover,
+.pagination-item:first-child a:focus,
+.pagination-item:last-child a:hover,
+.pagination-item:last-child a:focus {
+  background-color: rgba(217, 217, 217, 0.8);
+}
+
+.pagination-item:first-child a:active,
+.pagination-item:last-child a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.popup.item-hoover {
+  background-color: rgba(238, 238, 238, 0.7);  
+}
+
+.popup .popup-compare-link {
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.popup .popup-compare-link:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.popup .popup-compare-link:active {
+  color: rgba(0, 0, 0, 0.2);
 }
