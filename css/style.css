@@ -601,9 +601,13 @@ filter-form {
   text-transform: uppercase;
 }
 
+.pagination-list {
+  background-color: rgba(217, 217, 217, 0.08);
+}
+
 .pagination-list a:hover,
 .pagination-list a:focus {
-  color: rgba(129, 129, 129, 0.16);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .pagination-list a:active,
@@ -620,7 +624,7 @@ filter-form {
 .pagination-item:first-child a:focus,
 .pagination-item:last-child a:hover,
 .pagination-item:last-child a:focus {
-  background-color: rgba(217, 217, 217, 0.8);
+  background-color: rgba(217, 217, 217, 1);
 }
 
 .pagination-item:first-child a:active,
