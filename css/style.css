@@ -41,8 +41,21 @@ a {
   list-style: none;
 }
 
+.container-center {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .main-header {
+  height: 299px;
+  margin-top: 40px;
+
   background-color: #f7e296;  
+}
+
+.main-header-container {
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .search-form .search-field,
@@ -74,6 +87,34 @@ a {
   text-transform: uppercase;
 }
 
+.main-header-logo {
+  position: relative;
+  top: -25px;
+
+  display: block;
+}
+
+.main-header .flex-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header div.flex-container {
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.main-header .search-form {
+  min-height: 49px;
+
+  align-items: center;
+}
+
+.search-form label {
+  position: absolute;
+}
+
 .main-header-logo:hover,
 .main-header-logo:focus,
 .main-footer-logo:hover,
@@ -87,6 +128,12 @@ a {
 }
 
 .search-form .search-field {
+  width: 355px;
+  min-height: 49px;
+  margin: 0;
+  padding: 0;
+  padding-left: 39px;
+
   background-color: transparent;
   border: none;
   opacity: 0.3;
@@ -97,10 +144,20 @@ a {
 }
 
 .search-form .search-field:focus {
+  padding-top: 2px;
+
+  outline: none;
+  border-bottom: 2px solid black;
   opacity: 1;
 }
 
 .search-form .button {
+  width: 85px;
+  min-height: 49px;
+  margin: 0;
+  margin-right: 100px;
+  padding: 0;
+
   background-color: transparent;
   border-width: 2px;
   border-color: black;
@@ -118,6 +175,12 @@ a {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.main-header .main-header-user-menu {
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+}
+
 .logout-link {
   opacity: 0.3;
 }
@@ -131,9 +194,12 @@ a {
   opacity: 1;
 }
 
-.main-menu-link {
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+.main-header .main-header-links {
+  justify-content: space-between;
+  align-items: center;
+  width: 192px;
+  margin: 0;
+  padding-left: 28px;
 }
 
 .user-name-link:hover,
@@ -145,6 +211,52 @@ a {
 .cart-link:hover,
 .cart-link:focus {
   opacity: 0.6;
+}
+
+.main-header-navigation .main-header-menu-item {
+  margin-right: 35px;
+}
+
+.main-header-navigation .main-header-menu-item:first-child {
+  width: 540px;
+  margin: 0;
+}
+
+.main-header-navigation .main-header-menu-item:last-child {
+  margin: 0;
+  margin-left: auto;
+}
+
+.main-header-navigation .main-menu-link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main-header-navigation .catalog-menu {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 1040px;
+  height: 135px;
+}
+
+.catalog-menu .catalog-menu-item {
+  width: 200px;
+  margin-right: 40px;
+}
+
+.catalog-menu .catalog-menu-item:nth-child(n+4) {
+  margin-right: 0;
+}
+
+.catalog-menu .catalog-menu-item:nth-child(5) {
+  margin-bottom: 60px;
+}
+
+.main-menu-link {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .main-menu-link:hover, /*Если задавать opacity - влияет и на вложенный список*/
@@ -515,7 +627,7 @@ a {
   font: inherit;
 }
 
-filter-form {
+.filter-form {
   font: inherit;
 }
 
@@ -649,3 +761,5 @@ filter-form {
 .popup .popup-compare-link:active {
   color: rgba(0, 0, 0, 0.2);
 }
+
+/* УСТАНОВИТЬ ПРИМОЧКИ ДЛЯ ИЕ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
