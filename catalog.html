@@ -102,8 +102,9 @@
         </ul>
       </div>
       
-      <div class="container-center">
-        <div class="flex-container">
+      <!-- <div class="container-center"> -->
+        <div class="flex-container-main">
+          <div class="filter-section-wrapper">
           <section class="filter">
             <h2>Фильтр:</h2>
             <form class="filter-form" method="get" action="http://echo.htmlacademy.ru">
@@ -153,9 +154,11 @@
               <button class="button active-button" type="submit">Показать</button>
             </form>
           </section>
+        </div>
         
           <div class="flex-container-column">
-            <section class="sort flex-container">
+            <section class="sort">
+              <div class="flex-container">
               <h2>Сортировка:</h2>
               <ul class="sort-list list flex-container">
                 <li class="sort-item">
@@ -175,6 +178,7 @@
                 <li class="sort-direction-item">
                   <a class="link sort-direction-link current visually-hidden" href="#">По убыванию</a>
                 </li>
+              </div>
               </ul>
             </section>
 
@@ -255,7 +259,7 @@
           </div>
         
         </div>
-      </div>
+      <!-- </div> -->
     </main>
 
     <footer class="main-footer">
